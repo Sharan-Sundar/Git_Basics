@@ -1,0 +1,48 @@
+
+
+Sources:
+1.https://www.youtube.com/watch?v=SWYqp7iY_Tc
+2.http://rogerdudler.github.io/git-guide/
+3.https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
+
+
+
+
+Local Repo
+
+1.cd project_folder
+
+2.git init - Initializes Local Repo-.git hidden folder appears
+
+3.git add,rm --cached files ( git add *.html to add all html files, git add . to add all files) - Files in stagings
+
+4.git status to check - Reports files that have changed
+
+5.git commit - Goes to vim editor kind of mode. Press I for insert mode and type in commit message. Esc+:wq takes you out. In nano use Ctrl+X and Enter. Now status shows nothing coz all files are comitted.
+ OR
+git commit -m "Message" to skip all the vim,nano stages.
+
+
+6. .gitignore - Folder/Document that contains filenames to be ignored
+touch .gitignore
+Open it and put all filenames which have to be ignored
+
+7. git branch branchname - To create new branch
+   git checkout branchname - To switch branches
+   git merge branchname - To megre branch with master
+   Make changes in branches and merge finally
+
+
+Remote Repo-github
+
+1. Create repo in github
+2. git remote add origin "url"
+3. git push -u origin master
+4. git pull - To reflect changes made by others contributors on your local repo.
+
+Cloning
+1.Open new folder 
+2.git clone 'url'
+3.
+4.
