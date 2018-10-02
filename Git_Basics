@@ -49,7 +49,7 @@ touch .gitignore - Open it and put all filenames which have to be ignored
 Remote Repo-github
 
 1. Create repo in github
-2. git remote add origin 'url' - Add remote repo
+2. git remote add origin 'url' - Add remote repo / git remote rm origin -To remove remote
 3. git push -u origin master - To push contents from local repo to remote repo
 4. git pull origin master - To reflect changes made by others contributors on your local repo.
 
