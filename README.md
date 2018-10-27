@@ -1,6 +1,6 @@
 # Git_Basics
 
-Getting started with Git and Github (bare minimum)
+Getting started with Git and Github (the bare minimum).
 
 ### Resources:
 1. https://www.youtube.com/watch?v=SWYqp7iY_Tc
