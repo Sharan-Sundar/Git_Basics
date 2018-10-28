@@ -26,15 +26,12 @@ https://help.github.com/articles/set-up-git/
 2. *git init* - Initializes Local Repo and .git hidden folder appears.
 3. *git add <filename>,rm --cached files* - Add files to staging(git add . to add all files).
 4. *git status*  - Reports files that have modified.
-5. *git commit* - Goes to vim,nano editor kind of mode.
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Vim* - Press I for insert mode and type in commit message. Esc+:wq takes you out.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Nano* - Ctrl+X and Enter.
-
-*git commit -m "Message"* to skip all the vim,nano stages.
-6. *.gitignore* - Folder/Document that contains files to be ignored by git in the repo.
-&nbsp;&nbsp;&nbsp;&nbsp;*touch .gitignore* - Open it and type all filenames which have to be ignored.
+5. *git commit* - Goes to vim,nano editor kind of mode.<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Vim* - Press I for insert mode and type in commit message. Esc+:wq takes you out.<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Nano* - Ctrl+X and Enter.<br/>
+6. *git commit -m "Message"* to skip all the vim,nano stages.
+7. *.gitignore* - Folder/Document that contains files to be ignored by git in the repo.
+ &nbsp;&nbsp;&nbsp;&nbsp;*touch .gitignore* - Open it and type all filenames which have to be ignored.
 
 
 #### Branches
