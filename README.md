@@ -22,23 +22,16 @@ https://help.github.com/articles/set-up-git/
 
 
 #### Local Repo Operations
-1. *cd project_folder*
-2. *git init* - Initializes Local Repo and .git hidden folder appears.
-3. *git add <filename>,rm --cached files* - Add files to staging(git add . to add all files).
-4. *git status*  - Reports files that have modified.
-5. *git commit* - Goes to vim,nano editor kind of mode.<br/>
+1.  *cd project_folder*
+2.  *git init* - Initializes Local Repo and .git hidden folder appears.
+3.  *git add <filename>,rm --cached files* - Add files to staging(git add . to add all files).
+4.  *git status*  - Reports files that have modified.
+5.  *git commit* - Goes to vim,nano editor kind of mode.<br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Vim* - Press I for insert mode and type in commit message. Esc+:wq takes you out.<br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Nano* - Ctrl+X and Enter.<br/>
-6. *git commit -m "Message"* -to skip all the vim,nano stages.
+6.  *git commit -m "Message"* -to skip all the vim,nano stages.
 7. *.gitignore* - Folder/Document that contains files to be ignored by git in the repo.<br/>
- &nbsp;&nbsp;&nbsp;&nbsp;*touch .gitignore* - Open it and type all filenames which have to be ignored.
-
-
-#### Branches
-1. *git branch branchname* - To create a new branch.
-2. *git checkout branchname* - To switch branches.
-3. *git merge branchname* - To megre branch with master.
-4. Make changes in branches and merge finally with the master branch.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*touch .gitignore* - Open it and type all filenames which have to be ignored.
 
 
 #### Remote Repo-github
@@ -48,3 +41,8 @@ https://help.github.com/articles/set-up-git/
 3. *git push -u origin master* - To push contents from local repo to remote repo
 4. *git pull origin master* - To reflect changes made by others contributors on your local repo.
 
+#### Branches
+1. *git branch branchname* - To create a new branch.
+2. *git checkout branchname* - To switch branches.
+3. *git merge branchname* - To megre branch with master.
+4. Make changes in branches and merge finally with the master branch.
