@@ -29,7 +29,9 @@ https://help.github.com/articles/set-up-git/
 5. *git commit* - Goes to vim,nano editor kind of mode.
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Vim* - Press I for insert mode and type in commit message. Esc+:wq takes you out.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Nano* - Ctrl+X and Enter.
+
 *git commit -m "Message"* to skip all the vim,nano stages.
 6. *.gitignore* - Folder/Document that contains files to be ignored by git in the repo.
 &nbsp;&nbsp;&nbsp;&nbsp;*touch .gitignore* - Open it and type all filenames which have to be ignored.
