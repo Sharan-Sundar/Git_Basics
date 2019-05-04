@@ -14,7 +14,7 @@ Recorded Terminal Sessions are stored as .cast files.
 To play 'em,
 1. View these .cast videos online at [asciinema.org](https://asciinema.org/~sharansundar).
 2. For installing asciinema  -  [installation](https://asciinema.org/docs/installation)(apt-get for Ubuntu).
-3. pen terminal and type -  **asciinema play filename.cast**.
+3. Open terminal and type -  **asciinema play filename.cast**.
 
 
 ### Setting up git
