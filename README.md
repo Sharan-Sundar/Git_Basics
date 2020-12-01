@@ -49,3 +49,4 @@ https://help.github.com/articles/set-up-git/
 
 #### Dirty Commit?
 1. https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+2. Reset multiple times if needed - each reset undoes one commit only.
