@@ -46,3 +46,6 @@ https://help.github.com/articles/set-up-git/
 2. *git checkout branchname* - To switch branches.
 3. *git merge branchname* - To megre branch with master.
 4. Make changes in branches and merge finally with the master branch.
+
+#### Dirty Commit?
+1. https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
