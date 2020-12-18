@@ -41,6 +41,17 @@ https://help.github.com/articles/set-up-git/
 3. *git push -u origin master* - To push contents from local repo to remote repo
 4. *git pull origin master* - To reflect changes made by others contributors on your local repo.
 
+#### Creating New Repo
+1.Create repo in github
+2.cd project_folder and git init
+3.git add README.md
+4.touch .gitignore and add appropriately
+5.git add .
+6.git commit -m "First Commit"
+7.git branch -M main
+8.git remote add origin https://github.com/Sharan-Sundar/Project.git
+9.git push -u origin main
+
 #### Branches
 1. *git branch branchname* - To create a new branch.
 2. *git checkout branchname* - To switch branches.
